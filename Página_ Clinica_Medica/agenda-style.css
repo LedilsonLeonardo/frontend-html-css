@@ -1,0 +1,70 @@
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 430px;
+    margin: 30px auto;
+    height: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: sans-serif;
+    padding: 16px 0;
+
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 20px;
+    margin: 15px 15px;
+}
+
+.grupo-campo {
+    display: flex;
+    flex-direction: column;
+}
+
+.grupo-campo input,
+.grupo-campo select {
+    margin: 12px 0;
+    height: 25px;
+}
+
+button {
+    background: #00cad1;
+    width: 200px;
+    height: 32px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin: 0 auto;
+    cursor: pointer;
+ }
+
+
+
+@media (max-width: 768px) {
+    .box-tabela-especialista img {
+      display: none;
+    }
+  
+    .tabela-especialistas {
+      width: 100%;
+    }
+  
+    .box-tabela-especialista {
+      height: auto;
+      justify-content: center;
+    }
+  }
+  
+  @media ( max-width: 425px) {
+    .box-tabela-especialista {
+      padding: 0;
+    }
+}

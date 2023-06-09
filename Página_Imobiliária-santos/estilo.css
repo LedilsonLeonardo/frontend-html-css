@@ -1,0 +1,158 @@
+/*FORMATÇÃO DO CORPO DA PÁGINA*/
+body {
+    margin: 0;
+    font-family: Tahoma;
+
+}
+
+/* ESTILO GLOBAL NAS SEÇÕES*/
+.secao1, .secao2, .secao3, .secao4, .secao5, .secao6 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*PARAGRAFO global */
+p {
+    margin: auto;
+    width: 980px;
+    padding: 10px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+/*ESTILIZANDO A 1ª SEÇÃO*/
+.secao1 {
+    background-color: #afddfb;
+
+}
+
+.imagem-logotipo {
+    width: 150px;
+
+}
+
+.secao1 p {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.secao1 a {
+    font-size: 18px;
+    color: #1d1d1d;
+    border-bottom: solid 2x #1d1d1d;
+    margin: 0 10px;
+}
+
+/*ESTILIZANDO A 2ª SEÇÃO*/
+
+.secao2 {
+    margin-top: 50px;
+    padding-top: 0;
+}
+
+/*ESTILIZANDO A 3ª SEÇÃO span*/
+span {
+    font-weight: bold;
+}
+
+.texto-azul {
+    color: #1d80c1;
+
+}
+
+.texto-amarelo {
+    color: #fff81b;
+}
+
+/*ESTILIZANDO A 3ª SEÇÃO*/
+.secao3 h1 {
+    color: #1d1d1d;
+    margin-bottom: 5px;
+}
+
+.secao3 h2, .secao5 h2 {
+    color: #1c81c0;
+}
+
+.secao3 img, .secao5 img {
+    width: 450px;
+}
+
+/*ESTILIZANDO A 4ª SEÇÃO*/
+.secao4, .secao6 {
+    background-color: #1d80c1;
+
+}
+
+.secao4 h2, .secao6 h2 {
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.secao4 p {
+    color: #ffffff;
+    line-height: 42px;
+    font-size: 22px;
+    text-align: center;
+    width: 700px;
+}
+
+.secao4 ul {
+    margin: 40px auto;
+    width: 135px;
+}
+
+.secao4 li {
+    color: #ffffff;
+    line-height: 42px;
+    text-align: left;
+    font-size: 22px;
+}
+
+/* ESTILIZANDO  A 6ª SEÇÃO*/
+.secao6 p {
+    color: #ffffff;
+    background-color: #1d1d1d;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.secao6 ul {
+    margin: 40px auto;
+    width: 210px;
+
+}
+
+.secao6 li {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.secao6 a {
+    background-color: #ffffff;
+    color: #1d80c1;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+.rede-social{
+    background-color: #1d80c1;
+
+}
+.rede-social p{
+    text-align: center;
+        
+}
+.imagem-rede-social{
+    width: 50px;
+    margin: auto 10px;
+   
+}
+.rede-social a{
+    margin-top: 10px;
+    text-decoration: none;
+}

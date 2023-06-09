@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento de consultas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="agenda-style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="topo">
+        <div class="container">
+            <div class="topo-titulo">
+                <a href="index.html">
+                    <img class="topo-logo" src="/assets/logo.png" alt="Clínica Médica" title="Clínica Médica Life">
+                </a>
+            </div>
+
+            <nav class="topo-links">
+                <a href="#sobre">Sobre</a>
+                <a href="#Especialidades">Especialidades</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form>
+
+            <fieldset>
+                <legend>Dados do paciente</legend>
+                <div class="grupo-campo">
+                    <label>Nome:</label>
+                    <input type="text" name="nome" placeholder="Digite seu nome" required>
+                </div>
+                <div class="grupo-campo">
+                    <label>Data de nascimento:</label>
+                    <input type="date" name="data_nascimento" required>
+                </div>
+
+                <div class="grupo-campo">
+                    <label>Telefone:</label>
+                    <input type="text" name="endereco" placeholder="Digite seu telefone" required>
+                </div>
+
+            </fieldset>
+            <fieldset>
+                <legend>Agendamento</legend>
+
+
+                <div class="grupo-campo">
+                    <label>Data da consulta </label>
+                    <input type="date" name="data_consulta" required>
+
+                </div>
+                <div class="grupo-campo">
+                    <label>Horário:</label>
+                    <input type="time" name="hora" required>
+                </div>
+                <div class="grupo-campo">
+                    <label>Médico </label>
+                    <select name="medico" riquired>
+                        <option value="">Escolha médico </option>
+                        <option value="Fisioterapeuta">Fisioterapeuta</option>
+                        <option value=" Ortopedista"> Ortopedista</option>
+                        <option value="Pediatra">Pediatra</option>
+                        <option value="Psicologo">Psicologo
+                        </option>
+                    </select>
+                </div>
+            </fieldset>
+            <button type="text">Enviar</button>
+        </form>
+    </main>
+    <footer>
+        <div class="container">
+          <img class="topo-logo" src="assets/logo.png" alt="Clínica Médica" title="Clínica Médica Life">
+    
+          <p>
+            Telefone e WhatsApp: (21) 99966-5555
+          </p>
+    
+          <p>
+            Endereço: Av. Ayrton Senna, 3000 - Barra da Tijuca, Rio de Janeiro
+          </p>
+    
+          <p>
+            ©2020 Clínica Médica Life - Todos os direitos reservados
+          </p>
+        </div>
+      </footer>
+</body>
+
+</html>
